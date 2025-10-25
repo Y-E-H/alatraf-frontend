@@ -1,3 +1,30 @@
+:root {
+  /* الألوان الأساسية */
+  --primary-color: #003366;
+  --background-color: #F9FAFB;
+  
+  /* ألوان البطاقات */
+  --card-color: #CCE5FF;
+  --card-active-color: #B2D9FF;
+  --card-yellow: #FFF3CD;
+  --card-green: #D1E7DD;
+  --card-red: #F8D7DA;
+  
+  /* ألوان النصوص أو العناصر الأخرى */
+  --white-color: #FFFFFF;
+  --green-color: #198754;
+  --red-color: #DC3545;
+
+  /*
+   مثال على الاستخدام 
+  body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+  }
+  */
+}
+
+
 /* ====== Cairo Font Faces ====== */
 @font-face {
   font-family: 'Cairo';
